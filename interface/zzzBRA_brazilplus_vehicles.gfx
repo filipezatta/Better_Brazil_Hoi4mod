@@ -1,0 +1,174 @@
+spriteTypes = {
+	 		
+	SpriteType = {
+		name = "GFX_BRA_motorised_infantry_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_FNM_R_80.dds"
+	}
+	 		
+	SpriteType = {
+		name = "GFX_BRA_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_FNM_R_80.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_BRA_mechanised_infantry_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_FS_8.png"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRA_mechanized_equipment_1_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_FS_8.png"
+	}	
+	 
+	SpriteType = {
+		name = "GFX_BRA_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_FS_10.png"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRA_mechanized_equipment_2_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_FS_10.png"
+	}	
+	 
+	SpriteType = {
+		name = "GFX_BRA_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_cutia.png"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRA_mechanized_equipment_3_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_cutia.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_motorized_rocket_equipment_1_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_fv_108_r.dds"
+	}	
+	SpriteType = {
+		name = "GFX_BRA_armored_car1_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_FS_9.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_armored_car2_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_VBB_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_armored_car3_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_VBR_2.png"		
+	} 
+	
+	SpriteType = {
+		name = "GFX_BRA_armored_car_at_upgrade_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_VBR_2_90mm.png"		
+	} 
+	 
+	SpriteType = {
+		name = "GFX_BRA_armored_car_at_equipment_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_VBR_2_90mm.png"		
+	} 
+	
+	SpriteType = {
+		name = "GFX_BRA_amphibious_mechanized_infantry_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_CamAnf.png"		
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_amphibious_mechanized_infantry_2_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_CTTA.png"		
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_armored_train_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_armored_train.png"		
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_train_equipment_3_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_armored_train.png"		
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_railway_gun_equipment_1_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_railway_gun.png"		
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_railway_gun_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_railway_gun.png"		
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_motorized_rocket_equipment_1_medium"
+		texturefile = "gfx/interface/brazil_plus/vehicles/BRA_mra.png"		
+	}
+	
+	#TANKS
+	
+	SpriteType = {
+		name = "GFX_BRA_gwtank_chassis_medium"
+		texturefile = "gfx/interface/brazil_plus/tanks/BRA_f17.png"		
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_basic_light_tank_chassis_medium"
+		texturefile = "gfx/interface/brazil_plus/tanks/BRA_small_34.png"		
+	}
+
+	SpriteType = {
+		name = "GFX_BRA_improved_light_tank_chassis_medium"
+		texturefile = "gfx/interface/brazil_plus/tanks/BRA_small_36.png"		
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_advanced_light_tank_chassis_medium"
+		texturefile = "gfx/interface/brazil_plus/tanks/BRA_small_41.png"		
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_basic_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/brazil_plus/tanks/BRA_medium_38.png"		
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_improved_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/brazil_plus/tanks/BRA_medium_40.png"		
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_advanced_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/brazil_plus/tanks/BRA_medium_43.png"		
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_main_battle_tank_chassis_medium"
+		texturefile = "gfx/interface/brazil_plus/tanks/BRA_modern_tank.png"		
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_basic_heavy_tank_chassis_medium"
+		texturefile = "gfx/interface/brazil_plus/tanks/BRA_heavy_34.png"		
+	} 
+	
+	SpriteType = {
+		name = "GFX_BRA_improved_heavy_tank_chassis_medium"
+		texturefile = "gfx/interface/brazil_plus/tanks/BRA_heavy_40.png"		
+	} 
+	
+	SpriteType = {
+		name = "GFX_BRA_advanced_heavy_tank_chassis_medium"
+		texturefile = "gfx/interface/brazil_plus/tanks/BRA_heavy_43b.png"		
+	} 
+	
+	SpriteType = {
+		name = "GFX_BRA_super_heavy_tank_chassis_medium"
+		texturefile = "gfx/interface/brazil_plus/tanks/BRA_sh.png"		
+	} 
+	
+	SpriteType = {
+		name = "GFX_BRA_amphibious_tank_chassis_medium"
+		texturefile = "gfx/interface/brazil_plus/tanks/usa_lvt_a_1_m24_turret.png"		
+	} 
+
+}     

@@ -1,0 +1,82 @@
+foreign_politics  = {
+
+	BRA_correspondence_with_the_pope = {
+		icon = GFX_decision_generic_prepare_civil_war
+
+		allowed = {
+			original_tag = BRA
+		}
+
+		visible = {
+			has_completed_focus = BRA_cruzader_ethos
+		}
+
+		available = {
+			ROOT = {
+				has_country_leader = {
+					character = BRA_plinio_salgado
+					ruling_only = yes
+				}
+			}
+			OR = {
+				any_other_country = {					
+					has_country_leader = {
+						character = ITA_papa_pio_xii
+						ruling_only = yes
+					}
+					NOT = {
+						has_war_with = ROOT
+					}
+				}	
+			}
+		}
+
+		cost = 25
+
+		fire_only_once = yes
+		
+		ai_will_do = {
+			base = 100
+		}
+
+		complete_effect = {	
+			every_country = {
+				limit = {
+					has_country_leader = {
+						character = ITA_papa_pio_xii
+						ruling_only = yes
+					}
+				}
+				country_event = {
+					id = JUNO_brazil_events.30
+					hours = 1
+				}
+			}
+			custom_effect_tooltip = BRA_accords_tt
+			effect_tooltip = {
+				IF = {
+					limit = {
+						PREV = {
+							is_in_faction = yes
+						}
+					}
+					PREV = {
+						add_to_faction = ROOT
+					}
+				}
+				ELSE = {
+					PREV = {
+						create_faction = faction_name_bra_pap
+						add_to_faction = ROOT
+					}
+				}
+				PREV = {
+					add_opinion_modifier = {
+						target = ROOT
+						modifier = large_increase 
+					}
+				}
+			}			
+		}
+	}
+}

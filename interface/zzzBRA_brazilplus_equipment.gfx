@@ -1,0 +1,153 @@
+spriteTypes = {	
+	 
+	SpriteType = {
+		name = "GFX_BRA_infantry_equipment_0_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_Itajuba_M908.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_Itajuba_M908.dds"
+	}						
+	 
+	SpriteType = {
+		name = "GFX_BRA_infantry_equipment_1_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_Itajuba_M949.dds"
+	}							
+	 
+	SpriteType = {
+		name = "GFX_BRA_infantry_weapons1_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_Itajuba_M949.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRA_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_Itajuba_M954.dds"
+	}		
+		
+	SpriteType = {
+		name = "GFX_BRA_infantry_equipment_2_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_Itajuba_M954.dds"
+	}		 
+	
+	SpriteType = {
+		name = "GFX_BRA_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_INA_M953.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_infantry_equipment_3_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_INA_M953.png"
+	}
+		
+	
+	SpriteType = {
+		name = "GFX_BRA_gw_artillery_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_art1.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_BRA_artillery_equipment_1_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_art1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRA_artillery_equipment_2_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_art2.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_BRA_artillery1_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_art2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_BRA_artillery_equipment_3_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_art3.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_BRA_artillery4_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_art3.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_BRA_anti_air_equipment_1_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_aa1.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_BRA_interwar_antiair_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_aa1.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_BRA_anti_air_equipment_2_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_aa2.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_BRA_antiair2_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_aa2.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_BRA_anti_air_equipment_3_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_aa3.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_BRA_antiair5_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_aa3.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_BRA_anti_tank_equipment_1_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_at1.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_BRA_interwar_antitank_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_at1.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_BRA_anti_tank_equipment_2_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_at2.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_BRA_antitank2_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_at2.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_BRA_anti_tank_equipment_3_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_at3.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_BRA_antitank5_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_at3.dds"
+	}			
+	
+	SpriteType = {
+		name = "GFX_BRA_rocket_equipment_1_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_ra1.png"
+	}		
+	
+	SpriteType = {
+		name = "GFX_BRA_rocket_artillery_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_ra1.png"
+	}			
+	
+	SpriteType = {
+		name = "GFX_BRA_rocket_equipment_2_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_ra2.png"
+	}		
+	
+	SpriteType = {
+		name = "GFX_BRA_rocket_artillery4_medium"
+		texturefile = "gfx/interface/brazil_plus/equipment/BRA_ra2.png"
+	}		
+}

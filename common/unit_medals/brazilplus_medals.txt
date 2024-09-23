@@ -1,0 +1,84 @@
+@cost = 30
+
+unit_medals = {
+	
+	### BRA
+	
+	medalha_cruz_de_combate_segunda_class = {
+		
+		available = { should_have_brazilian_medals_trigger = yes }
+		frame = 1
+		icon = "GFX_medal_icon_bra"
+		
+		cost = @cost		
+
+		unit_modifiers = {
+			army_morale_factor = 0.05
+			army_org_factor = 0.05
+		}
+		
+		#leader_modifier = {
+		# transport_capacity = whatever
+		#}
+		
+		one_time_effect = {
+			add_divisional_commander_xp = 100
+		}
+		
+	}
+	
+	medalha_cruz_de_combate_primeira_class = {
+		
+		available = { should_have_brazilian_medals_trigger = yes }
+		frame = 2
+		icon = "GFX_medal_icon_bra"
+		
+		cost = 20
+		
+		unit_modifiers = {
+			recon_factor = 0.15
+		}
+		
+		one_time_effect = {
+			add_divisional_commander_xp = 100
+		}
+		
+	}
+	
+	ordem_do_merito_militar = {
+		
+		available = { should_have_brazilian_medals_trigger = yes }
+		frame = 3
+		icon = "GFX_medal_icon_bra"
+		
+		cost = @cost
+		
+		unit_modifiers = {
+			army_fuel_consumption_factor = -0.075
+			supply_consumption_factor = -0.075
+		}
+		
+		one_time_effect = {
+			add_divisional_commander_xp = 100
+		}
+		
+	}
+	
+	ordem_do_merito_militar_grande_oficial = {
+		
+		available = { should_have_brazilian_medals_trigger = yes }
+		frame = 4
+		icon = "GFX_medal_icon_bra"
+		
+		cost = @cost
+		
+		unit_modifiers = {
+			army_morale_factor = 0.15
+		}
+		
+		one_time_effect = {
+			add_divisional_commander_xp = 100
+		}
+		
+	}
+}

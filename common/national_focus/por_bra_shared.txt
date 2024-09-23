@@ -1,0 +1,562 @@
+	shared_focus = {
+		id = POR_colonial_assimilation_policy
+		available = {
+			any_owned_state = {
+				NOT = { is_core_of = ROOT }
+			}
+		}
+
+		allow_branch = {
+			OR = {
+				original_tag = POR
+				has_completed_focus = BRA_empire_of_brazil
+			}
+			
+		}
+
+		bypass = {
+		}
+
+		icon = GFX_focus_generic_military_academy
+		x = -3
+		y = 8
+
+		cost = 10
+		search_filters = {FOCUS_FILTER_MANPOWER}
+		completion_reward = {
+			add_ideas = POR_colonial_assimilation_policy
+		}
+	}
+	
+	joint_focus = {
+		id = POR_colonial_army
+		available = {
+			any_owned_state = {
+				NOT = { is_core_of = ROOT }
+			}
+		}
+
+		joint_trigger = { original_tag = BRA original_tag = POR }
+		prerequisite = { focus = POR_colonial_assimilation_policy }
+
+		icon = GFX_focus_generic_little_entente
+		x = 0
+		y = 1
+
+		relative_position_id = POR_colonial_assimilation_policy
+		cost = 10
+		search_filters = {FOCUS_FILTER_MANPOWER}
+		completion_reward = {
+			add_ideas = POR_colonial_army
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = POR_francisco_craveiro_lopes
+		}
+	}
+
+	joint_focus = {
+		id = POR_luso_tropicalism
+		available = {
+			NOT = { has_government = fascism }
+			OR = {
+				has_full_control_of_state = 796 #North Angola
+				has_full_control_of_state = 540 #Luanda
+				has_full_control_of_state = 891 #South West Angola
+				has_full_control_of_state = 892 #Zambesi
+				has_full_control_of_state = 544 #Mozambique
+				has_full_control_of_state = 896 #Manica e Sofala
+				has_full_control_of_state = 897 #Zambeziá-Mozambique
+			}
+		}
+		joint_trigger = { original_tag = BRA original_tag = POR }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+				OR = {
+					has_government = neutrality
+					has_government = fascism
+					has_government = communism
+				}
+			}
+		}
+
+		prerequisite = { focus = POR_colonial_assimilation_policy }
+		mutually_exclusive = { focus = POR_limited_self_rule }
+			
+		icon = GFX_focus_por_luso_tropicalism
+		x = -2
+		y = 2
+
+		relative_position_id = POR_colonial_assimilation_policy
+		cost = 10
+		search_filters = {FOCUS_FILTER_ANNEXATION}
+		completion_reward = {
+			unlock_decision_tooltip = POR_mozambique_overseas_territory
+			unlock_decision_tooltip = POR_angola_overseas_province
+		}
+	}
+
+	joint_focus = {
+		id = POR_limited_self_rule
+		available = {
+			OR = {
+				has_full_control_of_state = 796 #North Angola
+				has_full_control_of_state = 540 #Luanda
+				has_full_control_of_state = 891 #Zambesi
+				has_full_control_of_state = 892 #Southwest Angola
+				has_full_control_of_state = 544 #Mozambique
+				has_full_control_of_state = 896 #Manica e Sofala
+				has_full_control_of_state = 897 #Zambezia
+			}
+		}
+		joint_trigger = { original_tag = BRA original_tag = POR }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+				}			
+			}
+			modifier = {
+				add = 1
+				OR = {
+					has_government = democratic
+					any_country = {
+						is_in_faction_with = ROOT
+						is_faction_leader = yes
+						has_government = democratic
+					}
+				}		
+			}
+		}
+
+		bypass = {
+		}
+		prerequisite = { focus = POR_colonial_army }
+		mutually_exclusive = { focus = POR_luso_tropicalism }
+			
+		icon = GFX_focus_por_limited_self_rule
+
+		x = 0
+		y = 1
+
+		relative_position_id = POR_colonial_army
+		cost = 10
+		completion_reward = {
+			add_political_power = 120
+			add_manpower = 30000
+			ANG = {
+				if = {
+					limit = { 
+						POR = { has_full_control_of_state = 796 }
+					}
+					transfer_state = 796
+					POR = { set_country_flag = POR_released_angola_flag }
+				}
+				if = {
+					limit = { 
+						POR = { has_full_control_of_state = 540 }
+					}
+					transfer_state = 540
+					POR = { set_country_flag = POR_released_angola_flag }
+				}
+				if = {
+					limit = { 
+						POR = { has_full_control_of_state = 891 }
+					}
+					transfer_state = 891
+					POR = { set_country_flag = POR_released_angola_flag }
+				}	
+				if = {
+					limit = { 
+						POR = { has_full_control_of_state = 892 }
+					}
+					transfer_state = 892
+					POR = { set_country_flag = POR_released_angola_flag }
+				}							
+			}
+
+			MZB = {
+				if = {
+					limit = { 
+						POR = { has_full_control_of_state = 544 }
+					}
+					transfer_state = 544
+					POR = { set_country_flag = POR_released_mozambique_flag }
+				}	
+				if = {
+					limit = { 
+						POR = { has_full_control_of_state = 896 }
+					}
+					transfer_state = 896
+					POR = { set_country_flag = POR_released_mozambique_flag }
+				}
+				if = {
+					limit = { 
+						POR = { has_full_control_of_state = 897 }
+					}
+					transfer_state = 897
+					POR = { set_country_flag = POR_released_mozambique_flag }
+				}
+			}
+
+			if = {
+				limit = {
+					OR = {
+						has_dlc = "Together for Victory"
+						has_dlc = "Man the Guns"
+					}
+				}
+
+				POR = {
+					if = {
+						limit = { has_country_flag = POR_released_angola_flag }
+						set_autonomy = {
+						    target = ANG
+						    autonomy_state = autonomy_integrated_puppet
+						}
+					}
+					if = {
+						limit = { has_country_flag = POR_released_mozambique_flag }
+						set_autonomy = {
+						    target = MZB
+						    autonomy_state = autonomy_integrated_puppet
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { has_country_flag = POR_released_angola_flag }
+					POR = { puppet = ANG }
+				}
+				if = {
+					limit = { has_country_flag = POR_released_mozambique_flag }
+					POR = { puppet = MZB }
+				}
+			}			
+
+			every_other_country = {
+				limit = { has_government = democratic }
+				add_opinion_modifier = {
+					target = POR
+					modifier = democratic_leanings_good 
+				}
+			}
+
+			if = {
+				limit = {
+					has_completed_focus = POR_allow_free_elections
+				}
+				custom_effect_tooltip = available_political_advisor
+				show_ideas_tooltip = POR_francisco_da_cunha_leal
+			}
+		}
+	}
+
+	joint_focus = {
+		id = POR_infrastructure_in_angola
+		available = {
+			OR = {
+				796 = {
+					is_owned_or_subject_trigger = yes
+				}
+			}
+		}
+		joint_trigger = { original_tag = BRA original_tag = POR  }
+		prerequisite = { focus = POR_colonial_assimilation_policy}
+			
+		icon = GFX_focus_generic_africa_infrastructure
+		x = 2
+		y = 0
+
+		relative_position_id = POR_limited_self_rule
+		cost = 10
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = { 
+
+			796 = {		
+				
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 2115
+					instant_build = yes
+				}	
+
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}					
+				add_extra_state_shared_building_slots = 4	
+			}
+
+			540 = {		
+
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					province = 8248
+					instant_build = yes
+				}	
+
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}					
+				add_extra_state_shared_building_slots = 4					
+			}				
+		}
+	}
+
+	joint_focus = {
+		id = POR_develop_north_angola
+		available = {	
+			OR = {
+				796 = {
+					is_owned_or_subject_trigger = yes
+				}
+			}					
+		}
+		joint_trigger = { original_tag = BRA original_tag = POR }
+		bypass = {		
+		}
+		prerequisite = { focus = POR_infrastructure_in_angola }
+			
+		icon = GFX_focus_generic_africa_factory
+		x = 0
+		y = 1
+
+		relative_position_id = POR_infrastructure_in_angola
+		cost = 10
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = { 
+			796 = {
+				add_extra_state_shared_building_slots = 8
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+			}
+		}
+	}
+
+	joint_focus = {
+		id = POR_develop_south_angola
+		available = {
+			OR = {
+				540 = {
+					is_owned_or_subject_trigger = yes
+				}
+			}
+		}
+		joint_trigger = { original_tag = BRA original_tag = POR }
+		bypass = {		
+		}
+		prerequisite = { focus = POR_develop_north_angola }	
+			
+		icon = GFX_focus_generic_africa_production
+		x = 0
+		y = 1
+
+		relative_position_id = POR_develop_north_angola
+		cost = 10
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = { 
+			540 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 8248
+					instant_build = yes
+				}
+
+				add_resource = {
+					type = steel
+					amount = 8
+				}
+
+				add_resource = {
+					type = rubber
+					amount = 4
+				}
+			}
+		}
+	}
+
+	joint_focus = {
+		id = POR_portuguese_oil
+		available = {
+			OR = {
+				796 = {
+					is_owned_or_subject_trigger = yes
+				}
+			}
+		}
+		joint_trigger = { original_tag = BRA original_tag = POR }
+		bypass = {		
+		}
+		prerequisite = { focus = POR_develop_south_angola }
+				
+		icon = GFX_goal_generic_oil_refinery
+		x = -1
+		y = 1
+
+		relative_position_id = POR_develop_south_angola
+		cost = 10
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = { 
+			796 = {
+				add_resource = {
+					type = oil
+					amount = 12
+				}
+			}
+		}
+	}
+
+	joint_focus = {
+		id = POR_develop_mozambique
+		available = {
+			OR = {
+				544 = {
+					is_owned_or_subject_trigger = yes
+				}
+			}
+		}
+		joint_trigger = { original_tag = BRA original_tag = POR }
+		bypass = {		
+		}
+		prerequisite = { focus = POR_develop_south_angola }
+				
+		icon = GFX_focus_generic_africa_naval
+		x = 1
+		y = 1
+
+		relative_position_id = POR_develop_south_angola
+		cost = 10
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		completion_reward = { 
+			544 = {
+				add_extra_state_shared_building_slots = 8
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = 2123				
+					instant_build = yes
+				}
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+			}
+		}
+	}
+	joint_focus = {
+		id = BRA_invest_in_west_africa
+		icon = GFX_focus_generic_industry_1
+		x = 2
+		y = 0
+		joint_trigger = { original_tag = BRA }
+		prerequisite = {focus = POR_colonial_assimilation_policy }
+		relative_position_id = POR_infrastructure_in_angola
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		allow_branch = {
+			780 = {
+				OR = {
+					is_claimed_by = BRA
+					is_owned_or_subject_trigger = yes
+				}
+			}
+		}
+		available = {
+			780 = {
+				OR = {
+					is_claimed_by = BRA
+					is_owned_or_subject_trigger = yes
+				}
+			}
+		}
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			every_state = {
+				limit = {
+					OR = {
+						region = 226
+						region = 140
+					}					
+					NOT = {
+						OR = {
+							is_owned_by = ROOT
+							is_owned_by = ITA
+							OWNER = {
+								is_in_faction_with = ROOT
+							}
+						}
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}	
+			}	
+		}
+	}
+	
+	
+
+	

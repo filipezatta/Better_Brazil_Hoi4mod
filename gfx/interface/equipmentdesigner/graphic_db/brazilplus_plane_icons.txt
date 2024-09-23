@@ -1,0 +1,1032 @@
+BRA = {
+	small_plane_airframe_0 = {
+		pool = {
+			weight = 1.5
+			icons = {
+				GFX_BRA_early_fighter
+				GFX_BRA_iw_small_airframe
+				GFX_BRA_M_7
+			}
+			models = {
+				USA_light_plane_entity
+				BRA_light_plane_0_entity
+			}
+		}
+	}
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 1.5
+			icons = {
+				GFX_BRA_basic_small_airframe
+				GFX_BRA_IPT_13
+				GFX_BRA_IPT_4
+				GFX_BRA_ipt_0_bichinho		
+			}
+			models = {
+				USA_light_plane_entity
+				BRA_light_plane_1_entity
+			}
+		}
+	}
+	small_plane_airframe_2 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_improved_small_airframe
+				GFX_BRA_ipt_16D_surubim
+				GFX_BRA_ipt_16_surubim_b
+				GFX_BRA_CAP_3
+				GFX_BRA_ipt_16_surubim		
+			}
+			models = {
+				USA_light_plane_entity
+				BRA_light_plane_2_entity
+			}
+		}
+	} 
+	small_plane_airframe_3 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_heavy_fighter3
+				GFX_BRA_advanced_small_airframe
+				GFX_BRA_IPT_28D
+				GFX_BRA_IPT_28B
+				GFX_BRA_IPT_28		
+				GFX_BRA_muniz_m11b				
+				GFX_BRA_muniz_m11
+			}
+			models = {
+				USA_light_plane_entity
+				BRA_light_plane_3_entity
+				BRA_light_plane_5_entity
+			}
+		}
+	}
+	small_plane_airframe_4 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_modern_small_airframe
+				GFX_BRA_HL_15
+				GFX_BRA_CTA_BETA_II	
+			}
+			models = {
+				USA_light_plane_entity
+				BRA_modern_plane_entity
+				#USA_jet_fighter_equipment_1_entity
+			}
+		}
+	}
+	# small_plane_airframe_5 = {
+		# pool = {
+			# weight = 1.5
+			# icons = {	
+				# GFX_USA_XF_84H	
+			# }
+			# models = {
+				# USA_light_plane_entity
+				# USA_jet_fighter_equipment_2_entity
+				# USA_jet_interceptor_equipment_2_entity
+				# USA_jet_interceptor_equipment_1_entity
+			# }
+		# }
+	# }
+	# small_plane_airframe_6 = {
+		# pool = {
+			# weight = 1.5
+			# icons = {	
+				# GFX_USA_L_205		
+			# }
+			# models = {
+				# USA_light_plane_entity		
+				# USA_jet_fighter_equipment_3_entity				
+			# }
+		# }
+	# }
+	# small_plane_airframe_7 = {
+		# pool = {
+			# weight = 1.5
+			# icons = {	
+				# GFX_USA_RF_101		
+			# }
+			# models = {
+				# USA_light_plane_entity
+				# USA_jet_interceptor_equipment_4_entity
+				# USA_jet_fighter_equipment_4_entity
+			# }
+		# }
+	# }
+	# small_plane_airframe_8 = {
+		# pool = {
+			# weight = 1.5
+			# icons = {	
+				# GFX_USA_U_2		
+			# }
+			# models = {
+				# USA_light_plane_entity
+				# USA_jet_interceptor_equipment_5_entity
+				# USA_jet_fighter_equipment_5_entity
+			# }
+		# }
+	# }
+	cv_small_plane_airframe_0 = {
+		pool = {
+			weight = 1.5
+			icons = {		
+				GFX_BRA_iw_small_airframe
+				GFX_BRA_M_9		
+				GFX_BRA_1FG
+			}
+			models = {
+				USA_light_plane_entity
+				BRA_light_plane_0_entity
+			}
+		}
+	}
+	
+	cv_small_plane_airframe_1 = {
+		pool = {
+			weight = 1.5
+			icons = {		
+				GFX_BRA_basic_small_airframe
+				GFX_BRA_IPT_13_naval			
+			}
+			models = {
+				USA_light_plane_entity
+				BRA_light_plane_1_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_2 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_improved_small_airframe
+				GFX_BRA_CAP_3N			
+			}
+			models = {
+				USA_light_plane_entity
+				BRA_light_plane_2_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_3 = {
+		pool = {
+			weight = 1.5
+			icons = {		
+				GFX_BRA_advanced_small_airframe
+				GFX_BRA_IPT_28_naval		
+			}
+			models = {
+				USA_light_plane_entity
+				BRA_light_plane_3_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_4 = {
+		pool = {
+			weight = 1.5
+			icons = {		
+				GFX_BRA_modern_small_airframe
+				GFX_BRA_cta_beta_2_nav	
+			}
+			models = {
+				USA_light_plane_entity
+				BRA_modern_plane_entity
+			}
+		}
+	}
+	# cv_small_plane_airframe_5 = {
+		# pool = {
+			# icons = {		
+				# GFX_USA_FJ_2
+			# }
+			# models = {
+				# USA_light_plane_entity
+			# }
+		# }
+	# }
+	# cv_small_plane_airframe_6 = {
+		# pool = {
+			# icons = {		
+				# GFX_USA_Model_91
+			# }
+			# models = {
+				# USA_light_plane_entity
+				# USA_cv_jet_fighter_equipment_1_entity
+			# }
+		# }
+	# }
+	# cv_small_plane_airframe_7 = {
+		# pool = {
+			# icons = {		
+				# GFX_USA_F11F
+			# }
+			# models = {
+				# USA_light_plane_entity
+				# USA_cv_jet_fighter_equipment_4_entity
+				# USA_cv_jet_fighter_equipment_2_entity
+			# }
+		# }
+	# }
+	# cv_small_plane_airframe_8 = {
+		# pool = {
+			# icons = {		
+				# GFX_USA_F6D
+			# }
+			# models = {
+				# USA_light_plane_entity
+				# USA_jet_fighter_equipment_5_entity
+				# USA_cv_jet_fighter_equipment_4_entity
+			# }
+		# }
+	# }
+	cv_small_plane_cas_airframe_0 = {
+		pool = {
+			weight = 1.5
+			icons = {
+				GFX_BRA_M_5
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_0 = {
+		pool = {
+			weight = 1.5
+			icons = {
+				GFX_BRA_HL_3
+				GFX_BRA_HL6B_Cauré
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_1 = {
+		pool = {
+			weight = 1.5
+			icons = {
+				GFX_BRA_heavy_fighter2
+				GFX_BRA_Cafe_Naval
+			}
+			models = {
+				USA_light_plane_entity
+				BRA_light_plane_1_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_1 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_heavy_fighter2
+				GFX_BRA_Cafe
+				GFX_BRA_3FG_C
+				GFX_BRA_3FG_B
+				GFX_BRA_3FG_A
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_2 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_CAS2
+				GFX_BRA_CAS3
+				GFX_BRA_7FG_naval
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_2 = {
+		pool = {
+			weight = 1.5
+			icons = {
+				GFX_BRA_CAS2
+				GFX_BRA_IPT_11_cas
+				GFX_BRA_7FG
+			}
+			models = {
+				USA_light_plane_entity				
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_3 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_CAS3
+				GFX_BRA_CAP_6_naval
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_3 = {
+		pool = {
+			weight = 1.5
+			icons = {
+				GFX_BRA_CAS3
+				GFX_BRA_CAP_6
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_4 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_Caraja
+				GFX_BRA_cta_beta_2_nav
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_4 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_Caraja
+				GFX_BRA_cta_beta_1
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	# cv_small_plane_cas_airframe_5 = {
+		# pool = {
+			# icons = {		
+				# GFX_USA_Savage
+			# }
+			# models = {
+				# USA_light_plane_entity			
+				# USA_cv_CAS_equipment_4_entity				
+			# }
+		# }
+	# }
+	# small_plane_cas_airframe_5 = {
+		# pool = {
+			# icons = {
+				# GFX_USA_F_84
+			# }
+			# models = {
+				# USA_light_plane_entity
+				# USA_jet_CAS_equipment_1_entity
+				# USA_jet_CAS_equipment_2_entity
+			# }
+		# }
+	# }
+	# cv_small_plane_cas_airframe_6 = {
+		# pool = {
+			# icons = {		
+				# GFX_USA_A2D
+			# }
+			# models = {
+				# USA_light_plane_entity
+				# USA_cv_CAS_equipment_4_entity
+			# }
+		# }
+	# }
+	# small_plane_cas_airframe_6 = {
+		# pool = {
+			# icons = {
+				# GFX_USA_F_96
+			# }
+			# models = {
+				# USA_light_plane_entity
+				# USA_jet_CAS_equipment_2_entity
+			# }
+		# }
+	# }
+	# cv_small_plane_cas_airframe_7 = {
+		# pool = {
+			# icons = {		
+				# GFX_USA_A_4
+			# }
+			# models = {
+				# USA_light_plane_entity
+				# USA_cv_jet_CAS_equipment_3_entity
+			# }
+		# }
+	# }
+	# small_plane_cas_airframe_7 = {
+		# pool = {
+			# icons = {
+				# GFX_USA_OV_10	
+			# }
+			# models = {
+				# USA_light_plane_entity
+				# USA_jet_CAS_equipment_2_entity
+			# }
+		# }
+	# }
+	# cv_small_plane_cas_airframe_8 = {
+		# pool = {
+			# icons = {		
+				# GFX_USA_A_6
+			# }
+			# models = {
+				# USA_light_plane_entity
+				# USA_cv_jet_CAS_equipment_3_entity
+			# }
+		# }
+	# }
+	# small_plane_cas_airframe_8 = {
+		# pool = {
+			# icons = {
+				# GFX_USA_F_105
+			# }
+			# models = {
+				# USA_light_plane_entity
+				# USA_jet_CAS_equipment_4_entity
+			# }
+		# }
+	# }
+	small_plane_naval_bomber_airframe_0 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_HL_3T
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_1 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_Petroleo
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_2 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_IPT_11
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_3 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_Fragata
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_4 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_CTA_BETA_II_naval_torpedo_bomber
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	# small_plane_naval_bomber_airframe_5 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_Mauler
+			# }
+			# models = {
+				# USA_light_plane_entity
+			# }
+		# }
+	# }
+	# small_plane_naval_bomber_airframe_6 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_Guardian
+			# }
+			# models = {
+				# USA_light_plane_entity
+			# }
+		# }
+	# }
+	# small_plane_naval_bomber_airframe_7 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_Tracker
+			# }
+			# models = {
+				# USA_light_plane_entity
+			# }
+		# }
+	# }	
+	# small_plane_naval_bomber_airframe_8 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_A_6
+			# }
+			# models = {
+				# USA_light_plane_entity
+			# }
+		# }
+	# }			
+	medium_plane_airframe_0 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_early_bomber
+				GFX_BRA_HL_8_bomber
+			}
+			models = {
+				USA_medium_plane_entity
+			}
+		}
+	}	
+	medium_plane_airframe_1 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_tactical_bomber1
+				GFX_BRA_2FG
+			}
+			models = {
+				USA_medium_plane_entity
+				BRA_light_plane_4_entity
+			}
+		}
+	}		
+	medium_plane_airframe_2 = {
+		pool = {
+			weight = 1.5
+			icons = {
+				GFX_BRA_tactical_bomber2
+				GFX_BRA_IPT_8
+			}
+			models = {
+				USA_medium_plane_entity
+			}
+		}
+	}	
+	medium_plane_airframe_3 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_tactical_bomber3
+				GFX_BRA_IPT_9
+				GFX_BRA_IPT_9_gun
+			}
+			models = {
+				USA_medium_plane_entity
+			}
+		}
+	}	
+	medium_plane_airframe_4 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_jet_tactical_bomber1
+				GFX_BRA_IPT_15
+				GFX_BRA_IPT_15_gun
+			}
+			models = {
+				USA_medium_plane_entity
+			}
+		}
+	}
+	# medium_plane_airframe_5 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_P5M_Marlin
+			# }
+			# models = {
+				# USA_medium_plane_entity
+				# USA_nav_bomber_equipment_4_entity
+			# }
+		# }
+	# }
+	# medium_plane_airframe_6 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_XP6Y
+			# }
+			# models = {
+				# USA_medium_plane_entity
+				# USA_jet_tac_bomber_equipment_2_entity
+			# }
+		# }
+	# }
+	# medium_plane_airframe_7 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_CL_400
+			# }
+			# models = {
+				# USA_medium_plane_entity
+				# USA_jet_tac_bomber_equipment_3_entity
+			# }
+		# }
+	# }
+	# medium_plane_airframe_8 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_YF_12
+			# }
+			# models = {
+				# USA_medium_plane_entity
+				# USA_nav_bomber_equipment_6_entity
+				# USA_mach2stratbomber_equipment_1_entity
+			# }
+		# }
+	# }		
+	medium_plane_fighter_airframe_1 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_heavy_fighter1
+				GFX_BRA_heavy_fighter_1
+			}
+			models = {
+				USA_medium_plane_entity
+			}
+		}
+	}	
+	medium_plane_fighter_airframe_2 = {
+		pool = {
+			weight = 1.5
+			icons = {
+				GFX_BRA_heavy_fighter_2b
+				GFX_BRA_heavy_fighter_2
+			}
+			models = {
+				USA_medium_plane_entity
+			}
+		}
+	}	
+	medium_plane_fighter_airframe_3 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_heavy_fighter_3
+			}
+			models = {
+				USA_medium_plane_entity
+			}
+		}
+	}
+	# medium_plane_fighter_airframe_4 = {
+		# pool = {
+			#weight = 1.5
+			# icons = {	
+				# GFX_BRA_jet_tac_bomber
+			# }
+			# models = {
+				# USA_medium_plane_entity
+			# }
+		# }
+	# }
+	# medium_plane_fighter_airframe_5 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_F_87
+			# }
+			# models = {
+				# USA_medium_plane_entity
+			# }
+		# }
+	# }	
+	# medium_plane_fighter_airframe_8 = {
+		# pool = {
+			# icons = {
+				# GFX_USA_YA_12
+			# }
+			# models = {
+				# USA_medium_plane_entity
+			# }
+		# }
+	# }
+	# medium_plane_scout_plane_airframe_3 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_F_15
+			# }
+			# models = {
+				# USA_medium_plane_entity
+			# }
+		# }
+	# }
+	# medium_plane_scout_plane_airframe_7 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_RB_66
+			# }
+			# models = {
+				# USA_medium_plane_entity
+				# USA_jet_tac_bomber_equipment_3_entity
+			# }
+		# }
+	# }			
+	large_plane_airframe_0 = {
+		pool = {
+			weight = 1.5
+			icons = {
+				GFX_BRA_strat_bomber_0
+			}
+			models = {
+				USA_heavy_plane_entity
+			}
+		}
+	}	
+	large_plane_airframe_1 = {
+		pool = {
+			weight = 1.5
+			icons = {
+				GFX_BRA_strategic_bomber1
+				GFX_BRA_strat_bomber_1
+			}
+			models = {
+				USA_heavy_plane_entity
+			}
+		}
+	}
+	# large_plane_maritime_patrol_plane_airframe_1 = {
+		# pool = {
+			# icons = {
+				# GFX_USA_XPBS1
+			# }
+			# models = {
+				# USA_heavy_plane_entity
+			# }
+		# }
+	# }
+	large_plane_airframe_2 = {
+		pool = {
+			weight = 1.5
+			icons = {
+				GFX_BRA_strategic_bomber2
+				GFX_BRA_strat_bomber_2
+			}
+			models = {
+				USA_heavy_plane_entity
+			}
+		}
+	}
+	# large_plane_maritime_patrol_plane_airframe_2 = {
+		# pool = {
+			# icons = {
+				# GFX_USA_PB2Y_Coronado
+			# }
+			# models = {
+				# USA_heavy_plane_entity
+			# }
+		# }
+	# }
+	large_plane_airframe_3 = {
+		pool = {
+			weight = 1.5
+			icons = {
+				GFX_BRA_strategic_bomber3
+				GFX_BRA_strat_bomber_3
+			}
+			models = {
+				USA_heavy_plane_entity
+			}
+		}
+	}
+	# large_plane_maritime_patrol_plane_airframe_3 = {
+		# pool = {
+			# icons = {
+				# GFX_USA_XPB3Y
+			# }
+			# models = {
+				# USA_heavy_plane_entity
+			# }
+		# }
+	# }
+	large_plane_airframe_4 = {
+		pool = {
+			weight = 1.5
+			icons = {
+				GFX_BRA_jet_strategic_bomber1
+				GFX_BRA_strat_bomber_4
+			}
+			models = {
+				USA_heavy_plane_entity
+			}
+		}
+	}
+	# large_plane_maritime_patrol_plane_airframe_4 = {
+		# pool = {
+			# icons = {
+				# GFX_USA_JRM_Mars
+			# }
+			# models = {
+				# USA_heavy_plane_entity
+			# }
+		# }
+	# }
+	# large_plane_airframe_5 = {
+		# pool = {
+			# icons = {
+				# GFX_USA_H_4_Hercules
+			# }
+			# models = {
+				# USA_heavy_plane_entity
+				# USA_jet_strat_bomber_equipment_1_entity
+			# }
+		# }
+	# }
+	# large_plane_maritime_patrol_plane_airframe_5 = {
+		# pool = {
+			# icons = {
+				# GFX_USA_H_4_Hercules
+			# }
+			# models = {
+				# USA_heavy_plane_entity
+			# }
+		# }
+	# }
+	# large_plane_airframe_6 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_P7M
+			# }
+			# models = {
+				# USA_heavy_plane_entity
+				# USA_jet_strat_bomber_equipment_2_entity
+			# }
+		# }
+	# }
+	# large_plane_maritime_patrol_plane_airframe_6 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_P7M
+			# }
+			# models = {
+				# USA_heavy_plane_entity
+				# USA_jet_strat_bomber_equipment_2_entity
+			# }
+		# }
+	# }
+	# large_plane_airframe_7 = {
+		# pool = {
+			# icons = {
+				# GFX_USA_R3Y
+			# }
+			# models = {
+				# USA_heavy_plane_entity
+				# USA_jet_strat_bomber_equipment_3_entity
+			# }
+		# }
+	# }
+	# large_plane_maritime_patrol_plane_airframe_7 = {
+		# pool = {
+			# icons = {
+				# GFX_USA_R3Y
+			# }
+			# models = {
+				# USA_heavy_plane_entity
+				# USA_jet_strat_bomber_equipment_3_entity
+			# }
+		# }
+	# }
+	# large_plane_airframe_8 = {
+		# pool = {
+			# icons = {
+				# GFX_USA_P6M
+			# }
+			# models = {
+				# USA_heavy_plane_entity
+				# USA_jet_strat_bomber_equipment_4_entity
+			# }
+		# }
+	# }
+	# large_plane_maritime_patrol_plane_airframe_8 = {
+		# pool = {
+			# icons = {
+				# GFX_USA_P6M
+			# }
+			# models = {
+				# USA_heavy_plane_entity
+				# USA_jet_strat_bomber_equipment_4_entity
+				# USA_mach2stratbomber_equipment_1_entity
+			# }
+		# }
+	# }
+	cv_small_plane_naval_bomber_airframe_0 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_HL_3N
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_1 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_Petroleo_Naval
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_2 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_IPT_11_Naval
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_3 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_CAP_6_naval
+				GFX_BRA_Fragata_N
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_4 = {
+		pool = {
+			weight = 1.5
+			icons = {	
+				GFX_BRA_CTA_BETA_II_naval_torpedo_bomber
+			}
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	# cv_small_plane_naval_bomber_airframe_5 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_Mauler
+			# }
+			# models = {
+				# USA_light_plane_entity
+			# }
+		# }
+	# }
+	# cv_small_plane_naval_bomber_airframe_6 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_Guardian
+			# }
+			# models = {
+				# USA_light_plane_entity
+			# }
+		# }
+	# }
+	# cv_small_plane_naval_bomber_airframe_7 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_Tracker
+			# }
+			# models = {
+				# USA_light_plane_entity
+			# }
+		# }
+	# }	
+	# cv_small_plane_naval_bomber_airframe_8 = {
+		# pool = {
+			# icons = {	
+				# GFX_USA_A_6
+			# }
+			# models = {
+				# USA_light_plane_entity
+			# }
+		# }
+	# }	
+}

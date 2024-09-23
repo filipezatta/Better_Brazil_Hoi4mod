@@ -1,0 +1,204 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_embraer"
+		texturefile = "gfx/interface/ideas/embraer.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_engesa"
+		texturefile = "gfx/interface/ideas/engesa.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_bernardini"
+		texturefile = "gfx/interface/ideas/bernardini.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_petrobras"
+		texturefile = "gfx/interface/ideas/petrobras.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_imbel"
+		texturefile = "gfx/interface/ideas/imbel.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_companhia_aeronautica_paulista"
+		texturefile = "gfx/interface/ideas/CAP.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_fabrica_brasileira_de_avioes"
+		texturefile = "gfx/interface/ideas/CNNA.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ilha_das_cobras"
+		texturefile = "gfx/interface/ideas/ilha_das_cobras.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_fabrica_de_itajuba"
+		texturefile = "gfx/interface/ideas/itajuba.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_cni"
+		texturefile = "gfx/interface/ideas/cni.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_semp"
+		texturefile = "gfx/interface/ideas/semp.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_estaleiro_maua"
+		texturefile = "gfx/interface/ideas/estaleiro_maua.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_moto_pecas"
+		texturefile = "gfx/interface/ideas/moto_pecas.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_gudin"
+		texturefile = "gfx/interface/ideas/eugenio_gudin_advisor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_simonsen"
+		texturefile = "gfx/interface/ideas/simonsen_advisor.dds"
+	}	
+		
+	spriteType = {
+		name = "GFX_agildo_barata"
+		texturefile = "gfx/interface/ideas/agildo_barata.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_carlos_marighella"
+		texturefile = "gfx/interface/ideas/marighella.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_BRA_goal_antropofagia"
+		texturefile = "gfx/interface/ideas/XIN_goal_antropofagia.dds"
+	}
+		
+	
+	SpriteType = { 
+		name = "GFX_BRA_goal_antropofagia"
+		texturefile = "gfx/interface/goals/XIN_goal_antropofagia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_goal_antropofagia_shine"
+		texturefile = "gfx/interface/goals/XIN_goal_antropofagia.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/XIN_goal_antropofagia.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/XIN_goal_antropofagia.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_BRA_goal_cruzeiro"
+		texturefile = "gfx/interface/goals/MNG_goal_cruzeiro.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_BRA_goal_cruzeiro_shine"
+		texturefile = "gfx/interface/goals/MNG_goal_cruzeiro.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MNG_goal_cruzeiro.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MNG_goal_cruzeiro.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+		
+	spriteType = {
+		name = "GFX_CPII"
+		texturefile = "gfx/interface/goals/CPII.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CPII_shine"
+		texturefile = "gfx/interface/goals/CPII.dds"		
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CPII.dds"		
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CPII.dds"		
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+}

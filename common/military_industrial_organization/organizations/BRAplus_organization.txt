@@ -1,0 +1,191 @@
+### TANKS
+#POSITION
+@tank_1_X = 9
+@tank_1_Y = 2
+@tank_2_X = 9
+@tank_2_Y = 3
+@tank_3_X = 9
+@tank_3_Y = 4
+#BONUSES
+@tank_max_speed = 0.05
+@tank_production_capacity_factor = 0.05
+@tank_soft_attack = 0.05
+
+### AIRCRAFT
+#POSITION
+@aircraft_1_X = 9
+@aircraft_1_Y = 2
+@aircraft_2_X = 9
+@aircraft_2_Y = 3
+@aircraft_3_X = 9
+@aircraft_3_Y = 4
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+##################### 
+
+# BRA_bernardini = {
+
+	# include = generic_infantry_tank_organization
+	# icon = GFX_idea_bernardini
+	# name = BRA_bernardini
+	# allowed = {	
+		# tag = BRA 
+	# }		
+# }
+
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+BRA_estaleiro_maua = {
+
+	include = generic_refurbishment_repair_organization
+	icon = GFX_idea_estaleiro_maua
+	name = BRA_estaleiro_maua
+	allowed = {	
+		tag = BRA 
+	}		
+}
+
+# BRA_ilha_das_cobras = {
+
+	# include = generic_escort_ship_organization
+	# icon = GFX_idea_ilha_das_cobras
+	# name = BRA_ilha_das_cobras
+	# allowed = {	
+		# tag = BRA 
+	# }		
+# }
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+
+BRA_companhia_aeronautica_paulista = {
+
+	include = generic_cas_aircraft_organization
+	icon = GFX_idea_companhia_aeronautica_paulista
+	name = BRA_companhia_aeronautica_paulista
+	allowed = {	
+		tag = BRA 		
+	}		
+	available = {
+		FROM = {
+			has_completed_focus = SMB_domestic_designs
+		}
+	}
+}
+
+BRA_fabrica_brasileira_de_avioes = {
+
+	include = generic_light_aircraft_organization
+	icon = GFX_idea_fabrica_brasileira_de_avioes
+	name = BRA_fabrica_brasileira_de_avioes
+	allowed = {	
+		tag = BRA 
+	}			
+	available = {
+		FROM = {
+			has_completed_focus = SMB_domestic_designs
+		}
+	}
+}
+
+# BRA_embraer = {
+
+	# include = generic_multi_role_aircraft_organization
+	# icon = GFX_idea_embraer
+	# name = BRA_embraer
+	# allowed = {	
+		# tag = BRA 
+	# }		
+# }
+
+BRA_ipt_sp = {
+
+	include = generic_medium_aircraft_organization
+	#icon = GFX_idea_ipt_sp
+	name = BRA_ipt_sp
+	allowed = {	
+		tag = BRA 
+	}		
+	available = {
+		FROM = {
+			has_completed_focus = SMB_domestic_designs
+		}
+	}	
+}
+
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
+
+# BRA_imbel = {
+
+	# include = generic_infantry_equipment_organization
+	# icon = GFX_idea_imbel
+	# name = BRA_imbel
+	# allowed = {	
+		# tag = BRA 
+	# }		
+# }
+
+# BRA_fabrica_de_itajuba = {
+
+	# include = generic_artillery_organization
+	# #icon = GFX_idea_fabrica_de_itajuba
+	# name = BRA_fabrica_de_itajuba
+	# allowed = {	
+		# tag = BRA 
+	# }		
+# }
+
+# BRA_moto_pecas = {
+
+	# include = generic_motorized_mechanized_organization
+	# #icon = GFX_idea_moto_pecas
+	# name = BRA_moto_pecas
+	# allowed = {	
+		# tag = BRA 
+	# }		
+# }
+
+BRA_engesa = {
+
+	include = generic_armored_car_organization
+	icon = GFX_idea_engesa
+	name = BRA_engesa
+	allowed = {	
+		tag = BRA 
+	}			
+	available = {
+		FROM = {
+			has_completed_focus = SMB_mechanized_troops
+		}
+	}
+}

@@ -1,0 +1,405 @@
+spriteTypes = {
+									
+	######################## BRA
+	
+	SpriteType = {
+		name = "GFX_BRA_1FG"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_1FG.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_2FG"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_2FG.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_3FG_A"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_3FG_A.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_3FG_B"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_3FG_B.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_3FG_B_torpedo_bomber"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_3FG_B_torpedo_bomber.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_3FG_C"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_3FG_C.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_7FG"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_7FG.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_7FG_naval"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_7FG_naval.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_7FG_torpedo_bomber"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_7FG_torpedo_bomber.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_AX_1"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_AX_1.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_AX_1A"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_AX_1A.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_AX_1A2"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_AX_1A2.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_AX_1C"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_AX_1C.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_AX_1Cinza"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_AX_1Cinza.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_AX_1Cinza"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_AX_1VC.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_Cafe"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_Cafe.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_Cafe_Naval"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_Cafe_Naval.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_CAP_3"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_CAP_3.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_CAP_3N"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_CAP_3N.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_CAP_6"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_CAP_6.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_CAP_6_naval"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_CAP_6_naval.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_CAP_6_torpedo_bomber"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_CAP_6_torpedo_bomber.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_Caraja"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_Caraja.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_Casmuniz_52"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_Casmuniz_52.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_casmuniz_52_gun"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_casmuniz_52_gun.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_Casmuniz_52R"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_Casmuniz_52R.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_cta_beta_1"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_cta_beta_1.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_cta_beta_2_nav"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_cta_beta_2_nav.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_CTA_BETA_green"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_CTA_BETA_green.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_CTA_BETA_II"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_CTA_BETA_II.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_CTA_BETA_II_naval_torpedo_bomber"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_CTA_BETA_II_naval_torpedo_bomber.png"
+	} 
+	
+	SpriteType = {
+		name = "GFX_BRA_Fragata"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_Fragata.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_Fragata_N"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_Fragata_N.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_Fw44J"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_Fw44J.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_heavy_fighter_1"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_heavy_fighter_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_heavy_fighter_2"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_heavy_fighter_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_heavy_fighter_2b"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_heavy_fighter_2b.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_heavy_fighter_3"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_heavy_fighter_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_HL_3"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_HL_3.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_HL_3N"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_HL_3N.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_HL_3T"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_HL_3T.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_HL_8_bomber"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_HL_8_bomber.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_HL_8_Transport"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_HL_8_Transport.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_HL_15"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_HL_15.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_HL6B_Cauré"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_HL6B_Cauré.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_HL6B_Cauré_torpedo_bomber"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_HL6B_Cauré_torpedo_bomber.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_ipt_0_bichinho"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_ipt_0_bichinho.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_4"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_4.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_4_CAS"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_4_CAS.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_4R"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_4R.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_8"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_8.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_9"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_9.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_9_gun"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_9_gun.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_11"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_11.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_11_cas"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_11_cas.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_11_Naval"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_11_Naval.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_13"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_13.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_13_naval"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_13_naval.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_15"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_15.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_15_gun"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_15_gun.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_ipt_16_surubim"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_ipt_16_surubim.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_ipt_16_surubim_b"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_ipt_16_surubim_b.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_ipt_16D_surubim"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_ipt_16D_surubim.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_28"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_28.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_28_naval"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_28_naval.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_28B"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_28B.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_IPT_28D"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_IPT_28D.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_jet_tac_bomber"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_jet_tac_bomber.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_M_5"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_M_5.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_M_7"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_M_7.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_M_9"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_M_9.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_muniz_m11"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_muniz_m11.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_muniz_m11b"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_muniz_m11_b.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_Petroleo_Naval"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_Petroleo_Naval.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_Petroleo"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_Petroleo.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_strat_bomber_0"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_strat_bomber_0.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_strat_bomber_1"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_strat_bomber_1.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_strat_bomber_2"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_strat_bomber_2.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_strat_bomber_3"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_strat_bomber_3.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_BRA_strat_bomber_4"
+		texturefile = "gfx/interface/brazil_plus/aircraft/BRA_strat_bomber_4.png"
+	}
+	
+}

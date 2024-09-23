@@ -1,0 +1,107 @@
+spriteTypes = {	
+    	
+    spriteType = {
+		name = "GFX_leader_estillac_leal"
+		texturefile = "gfx/leaders/Brazil/Portrait_BRA_Newton_Estillac_Leal.dds"
+	}
+    	
+    spriteType = {
+		name = "GFX_advisor_estillac_leal"
+		texturefile = "gfx/leaders/Brazil/Portrait_BRA_Newton_Estillac_Leal_small.dds"
+	}
+    	
+    spriteType = {
+		name = "GFX_leader_horta_barbosa"
+		texturefile = "gfx/leaders/Brazil/Portrait_BRA_Horta_Barbosa.png"
+	}
+    	
+    spriteType = {
+		name = "GFX_advisor_horta_barbosa"
+		texturefile = "gfx/leaders/Brazil/Portrait_BRA_Horta_Barbosa_small.dds"
+	}	
+    	
+    spriteType = {
+		name = "GFX_leader_isidoro"
+		texturefile = "gfx/leaders/Brazil/Portrait_BRA_Isidoro_Dias.png"
+	}
+    	
+    spriteType = {
+		name = "GFX_advisor_isidoro"
+		texturefile = "gfx/leaders/Brazil/Portrait_BRA_Isidoro_Dias_small.png"
+	}
+    	
+    spriteType = {
+		name = "GFX_advisor_armando_trompowsky"
+		texturefile = "gfx/leaders/Brazil/trompowsky.png"
+	}
+    	
+    spriteType = {
+		name = "GFX_advisor_neves_da_fontoura"
+		texturefile = "gfx/interface/ideas/neves_da_fontoura.dds"
+	}
+    	
+    spriteType = {
+		name = "GFX_advisor_salgado_filho"
+		texturefile = "gfx/interface/ideas/salgado_filho.dds"
+	}
+    	
+    spriteType = {
+		name = "GFX_advisor_moreira_lima"
+		texturefile = "gfx/interface/ideas/moreira_lima.dds"
+	}
+    	
+    spriteType = {
+		name = "GFX_alvaro_alberto"
+		texturefile = "gfx/interface/ideas/alvaro_alberto.dds"
+	}
+    	
+    spriteType = {
+		name = "GFX_advisor_newton_cavalcanti"
+		texturefile = "gfx/leaders/Brazil/Portrait_BRA_Newton_Cavalcanti_small.dds"
+	}
+    	
+    spriteType = {
+		name = "GFX_advisor_jorge_martins"
+		texturefile = "gfx/interface/ideas/jorge_martins.dds"
+	}
+    	
+    spriteType = {
+		name = "GFX_jose_neiva_small"
+		texturefile = "gfx/interface/ideas/jose_maria_neiva.dds"
+	}
+    	
+    spriteType = {
+		name = "GFX_leader_newton_cavalcanti"
+		texturefile = "gfx/leaders/Brazil/Portrait_BRA_Newton_Cavalcanti.dds"
+	}
+    	
+    spriteType = {
+		name = "GFX_advisor_newton_cavalcanti"
+		texturefile = "gfx/leaders/Brazil/Portrait_BRA_Newton_Cavalcanti_small.dds"
+	}
+    	
+    spriteType = {
+		name = "GFX_portrait_BRA_alvaro_alberto_da_motta_e_silva_small"
+		texturefile = "gfx/leaders/Brazil/portrait_BRA_alvaro_alberto_da_motta_e_silva_small.dds"
+	}
+    	
+    spriteType = {
+		name = "GFX_portrait_BRA_nero_moura_small"
+		texturefile = "gfx/leaders/Brazil/Portrait_BRA_nero_moura.dds"
+	}
+    	
+    spriteType = {
+		name = "GFX_Jorge_Dodsworth_small"
+		texturefile = "gfx/leaders/Brazil/Portrait_BRA_jorge_dodsworth.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_leader_mourao_filho"
+		texturefile = "gfx/leaders/Brazil/Portrait_BRA_Mourao_Filho.png"
+	}		
+	
+	spriteType = {
+		name = "GFX_advisor_mourao_filho"
+		texturefile = "gfx/leaders/Brazil/Portrait_BRA_Mourao_Filho_small.png"
+	}
+} 

@@ -1,0 +1,356 @@
+﻿##### ARGENTINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+BRA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "CT "
+	fallback_name = "CT %d"					
+
+	unique = {											
+		"Piaui" "Rio Grande do Norte" "Paraíba" "Alagoas" "Marnhão" "Sergipe" "Santa Catharina" "Mato Grosso" "Mariz e Barros" "Marcílio Dias" "Greenhalgh" 
+		"Amazonas" "Araguari" "Ajuricaba" "Acre" "Araguaya" "Apa" "Juruá" "Javari" "Jutahy" "Juruena" "Jaguaribe" "Japarua" "Babitonga" "Baependi" "Bauru" "Beberibe" 
+		"Benevente" "Bertioga" "Bocaina" "Bracuí" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+BRA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "CL "
+	fallback_name = "CL %d"
+
+	unique = {
+		"Bahia" "Rio Grande do Sul" "Barroso" "Tamandaré"
+	}
+}
+
+## HEAVY CRUISER NAMES###
+BRA_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "CP "
+	fallback_name = "CP %d"
+
+	unique = {
+		
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+BRA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "CC "
+	fallback_name = "CC %d"		
+
+	unique = {
+		"Minas Geraes" "São Paulo" "Rio de Janeiro" "Riachuelo" 
+	}
+}
+
+## BATTLECRUISER NAMES ###
+BRA_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "CB "
+	fallback_name = "CB %d"		
+
+	unique = {
+		"Fernando de Noronha" "Amapá" "Guaporé" "Iguaçú" "Ponta Porã" "Rio Branco" "Missões" "Maracaju" "Princesa" "Abrolhos" "Trindade" "Martin Vaz" "Atol das Rocas"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+BRA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "Nae "
+	fallback_name = "NAe %d"	
+
+	unique = {
+		"Minas Gerais" "São Paulo" "Atlântico" "Alberto Santos Dumont" "Bartolomeu de Gusmão" "Augusto Severo" "Euclides Pinto Martins" "Evaldo Pedro Blauth"
+		"Gastão Galhardo Madeira" "João Alexandre Busse" "João Ribeiro de Barros" "José Ribas Cadaval" "Ribeiro de Souza" "Severiano Primo da Fonseca Lins"
+	}
+}
+
+### SUBMARINES ###
+BRA_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "S "
+	fallback_name = "S %d"
+	
+	unique = {
+		"Tupi" "Timbira" "Tamoio" "Humaytá" "Riachuelo" "Guanabara" "Rio Grande do Sul" "Bahia" "Rio de Janeiro" "Ceará" "Goiás" "Amazonas" 
+		"Tapajó" "Tikuna"
+	}
+}
+
+BRA_STATES = {
+	name = NAME_THEME_STATES
+	
+	for_countries = { BRA }
+	
+	type = ship
+	unique = {
+		"Minas Gerais" "São Paulo" "Rio de Janeiro" "Guanabara" "Bahia" "Rio Grande do Sul" "Paraná" "Pernambuco" "Ceará" "Pará" "Santa Catarina" "Maranhão"
+		"Goiás" "Amazonas" "Espírito Santo" "Paraíba" "Rio Grande do Norte" "Mato Grosso" "Alagoas" "Piauí" "Sergipe" "Rondônia" "Mato Grosso do Sul"
+		"Sergipe" "Rondônia" "Tocantins" "Acre" "Amapá" "Roraima" "São João da Palma" "Grão-Pará" "Rio Negro" "Paranaguá" "São Vicente" "Itamaracá" "Santana"
+	}
+}
+
+BRA_CAPITALS = {
+	name = NAME_THEME_BRA_CAPITALS
+	
+	for_countries = { BRA }
+	
+	type = ship
+	unique = {
+		"Salvador" "Fortaleza" "Belo Horizonte" "Manaus" "Curitiba" "Recife" "Goiânia" "Belém" "Porto Alegre" "São Luís" "Maceió" "Campo Grande" "Natal" "Teresina" "João Pessoa" 
+		"Aracaju" "Cuiabá" "Porto Velho" "Macapá" "Florianópolis" "Boa Vista" "Rio Branco" "Vitória" "Palmas"
+	}
+}
+
+BRA_CITIES = {
+	name = NAME_THEME_CITIES
+	
+	for_countries = { BRA }
+	
+	type = ship
+	unique = {
+		"Guarulhos" "Campinas" "São Gonçalo" "Duque de Caxias" "Campo Grande" "São Bernardo do Campo" "Nova Iguaçú" "São José dos Campos" "Santo André" "Ribeirão Preto"
+		"Jaboatão dos Guararapes" "Osasco" "Uberlândia" "Sorocaba" "Contagem" "Feira de Santana" "Joinville" "Aparecida" "Londrina" "Juiz de Fora" "Ananindeua" "Serra"
+		"Caxias do Sul" "Niterói" "Belford Roxo" "Campos dos Goytacazes" "Vilha Velha" "Mauá" "São João de Meriti" "São José do Rio Preto" "Mogi" "Betim" "Santos" "Abaeté"
+		"Alcântara" "Belmonte" "Bonsucesso" "Camboriú" "Campista" "Capibaribe" "Capivari" "Corumbá" "Cruzeiro do Sul" "Goitacás" "Gravataí" "Guará" "Guaratiba" "Guaratuba" 
+		"Guarujá" "Ibicuí" "Inhaúma" "Itabira" "Itacuruçá" "Itaipu" "Itajaí" "Itajubá" "Itaparica" "Itapemirim" "Itapoã" "Itaúna" "Jacuípe" "Jequitinhonha" "Lindóia" "Macaé"
+		"Magé" "Maracanã" "Maragogipe" "Marajó" "Marambaia" "Mearim" "Moema" "Ondina" "Paissandu" "Paraguaçú" "Parati" "Pavuna" "Pelotas" "Penedo" "Petrópolis" "Pirajá"
+		"Piratini" "Pojuca" "Sabará" "Santa Cruz" "Santa Maria" "Santana" "São Cristóvão"
+	}
+}
+
+BRA_TRIBES = {
+	name = NAME_THEME_TRIBES
+	
+	for_countries = { BRA }
+	
+	type = ship
+	unique = {
+		"Tupi" "Timbira" "Tamoio" "Humaytá" "Tapajó" "Tikuna" "Kaiowá" "Kaingang" "Macuxi" "Terena" "Guajajara" "Yanomâmi" "Xavante" "Pataxó" "Potiguara" "Tenetehara"
+		"Sateré-mawé" "Munduruku" "Mura" "Xucuru" "Baré" "Pankararú" "Kokama" "Wapixana" "Xacriabá" "Baniwa" "Tremembé" "Tukano" "Kaxinawá" "Fulni-ô" "Apurinã" "Aticun-umã"
+		"Karajá" "Tapeba" "Kulina-Madihá" "Waiwai" "Tariana" "Krahó" "Xerente" "Galibi-Marworno" "Tuxá" "Kadiwéu" "Kambiwá" "Desano" "Jiripancó" "Kariri-Xocó" "Mbya" "Ñandeva"
+		"Pankararé" "Wassu" "Kiriri" "Mãxakani" "Temimó" "Truká" "Kanela-Rankokamekra" "Kanamari" "Pareci" "Kaimbé" "Apinayé" "Hupda" "Nambikwara" "Kuripako" "Xikrim" "Marubo"
+		"Bororo" "Piratapuai" "Kaiabis" "Bakairi" "Waimiri-Atroari" "Paiteré" "Javaé" "Palikur" "Ricbactas" "Tumbalalá" "Pitaguary" "Paumari" "Matsé" "Tembé" "Campa"
+	}
+}
+
+BRA_RIVERS = {
+	name = NAME_THEME_RIVERS
+	
+	for_countries = { BRA }
+	
+	type = ship
+	unique = {
+		"Amazonas" "Rio Paraná" "Purus" "Madeira" "São Francisco" "Paraguai" "Rio Tocantins" "Juruá" "Araguaia" "Rio Xingu" "Parnaíba" "Tapajós" "Uruguai" "Rio Negro" "Guaporé" "Içá"
+		"Rio Grande" "Solimões" "Rio Doce" "Iguaçú" "Iriri" "Juruena" "Paraíba do Sul" "Tietê" "Apa" "Rio das Contas" "Rio Formoso" "Rio Real" "Rio Turvo" "Rio Verde" "Rio Pardo" "Chuí" "Oiapoque"
+		"Paranaíba" "Rio da Prata" "Javari" "Rio Pará" "Santana" "Taquari" "Canal das Tartarugas" "Pacajá" "Rio das Mortes" "Rio Araguari" "Capim" "Ararandeua" "Cajari" "Jurema" "Juína"
+		"Samambaia" "Rio São Marcos" "Ivaí" "Rio Corumbá" "Rio Mearim" "Samburá" "Vereda da Prata" "Pranga" "Piranga" "Xopotó" "Jenipapocu" "Camaraipi" "Anapu" "Uruçuí-Vermelho" "Jacarezinho"
+		"Aramá" "Anajás" "Acará" "Ararandeua" "Guamá" "Uru" "Córrego da Limeira" "Rio das Almas" "Rio das Pedras" "Paraná do Capitari" "Rio Barbado" "Paraná do Jacaré" "Mamoré" "Rio Pelotas"
+	}
+}
+
+BRA_STARS = {
+	name = NAME_THEME_BRA_STARS
+	
+	for_countries = { BRA }
+	
+	type = ship
+	unique = {
+		"Achernar" "Aldebaran" "Betelgeuse" "Capella" "Denebola" "Fomalhaut" "Regulus" "Rigel" "Vega" "Pollux" "Crux" "Gacrux" "Acrux" "Mimosa" "Imai" "Ginan" "Castor" "Sirius" "Procyon" "Orion" 
+		"Deneb" "Altair" "Polaris" "Arcturus" "Spica" "Bellatrix" "Antares" "Canopus" "Acrux" "Centauri" "Pavonis" "Cassiopeia" "Calíope" "Vesta" "Sigma Octantis" "Tucanae" "Theta Carinae" 
+		"Kaus Australis" "Menkent" "Shaula" "Acamar" "Ankaa" "Suhail" "Al Na'ir" "Hadar" "Atria"  
+	}
+}
+
+BRA_ADMIRALS = {
+	name = NAME_THEME_BRA_ADMIRALS
+	
+	for_countries = { BRA }
+	
+	type = ship
+	unique = {
+		"Guilhem" "Guillobel" "Abreu" "Custódio de Mello""Amorim do Valle" "Jorge Leite" "Garnier Sampaio" "Índio do Brasil" "Barroso" "Gastão Motta" "Frontin" "Graça Aranha" "Hess" "Jaceguai" 
+		"Saldanha" "Isaías de Noronha"
+	}
+}
+
+BRA_HISTORICAL_MINESWEEPERS = {
+	name = NAME_THEME_HISTORICAL_MINESWEEPERS
+	
+	for_countries = { BRA }
+	
+	ship_types = { ship_hull_light destroyer }	
+	type = ship
+	unique = {
+		"Aratu" "Anhatomirim" "Atalaia" "Araçatuba" "Abrolhos" "Albardão" "Javarí" "Jutaí" "Juruá" "Juruena"
+	}
+}
+
+BRA_HISTORICAL_MINELAYERS = {
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+	
+	for_countries = { BRA }
+	
+	ship_types = { ship_hull_light destroyer }	
+	type = ship
+	unique = {
+		"Carioca" "Cananéia" "Camocim" "Cabedelo" "Caravelas" "Camaquã" "Heitor Perdigão" "Muniz Freire"
+	}
+}
+
+BRA_HISTORICAL_SUBHUNTER = {
+	name = NAME_THEME_HISTORICAL_SUBHUNTER
+	
+	for_countries = { BRA }
+	
+	ship_types = { ship_hull_light destroyer }	
+	type = ship
+	unique = {
+		"Guaporé" "Gurupí" "Guaíba" "Gurupá" "Guajará" "Goiana" "Grajaú" "Graúna" "Javarí" "Jutaí" "Juruá" "Juruena" "Jaguarão" "Jaguaribe" "Jacuí" "Jundiaí"
+		"Piraju" "Pirambu" "Piranha" "Pirapiá" "Piraquê" "Piraúna"
+	}	
+}
+
+BRA_HEROES = {
+name = NAME_THEME_LEADERS
+	
+	for_countries = { BRA }
+	
+	type = ship
+	unique = {
+		"Greenhalgh" "Aspirante Nascimento" "Guarda Marinha Jansen" "Guarda Marinha Brito" "Fernandes Vieira" "Felipe Camarão" "Henrique Dias" "Matias de Albuquerque" 
+		"Vidal de Negreiros" "Barreto de Menezes" "Comandante Marriog" "Comandante Didier" "Tenente Magalhães" "Cabo Schramm" "Comandante Varella" "Tenente Castelo"
+		"Comandante Malhães" "Tenente Boanerges" "Custódio de Mello" "Barroso Pereira" "Ary Parreiras" "Soares Dutra" "Santana" "Arêas" "Nascimento" "Wanderley" 
+		"Getúlio Lima" "Castelhanos" "Heitor Perdigão" "Muniz Freire" "Vital de Oliveira" "José Bonifácio" "Calheiros da Graça" "Pedro Ivo" "Pedro Affonso" "Silvado"
+		"Silva Jardim" "Bento Gonçalves" "Pedro Teixeira" "Raposo Tavares" "Tenente Lehmeyer" "Tenente Mario Alves" "Tenente Rosas" "Tenente Ribeiro"
+	}
+}
+
+BRA_REPUBLIC = {
+name = NAME_THEME_REPUBLIC
+	
+	for_countries = { BRA }
+	
+	can_use = {
+		has_government = democratic
+	}
+	
+	type = ship
+	unique = {
+		"Constituição" "Liberal" "Independência" "União" "República" "Voluntário" "Defensora" "Impávido" "Intrépido" "Sete de Setembro" "Quinze de Novembro" "Arrojado" "Valente" "Harmonia" 
+		"Independente" "Ativa" "Audaz" "Bélico" "Constante" "Diligente" "Esperança" "Glória" "Gratidão" "Invencível" "Leal" "Legalidade" "Libertador" "Presidente" "Restauradora" "Triunfo"
+		"Vigilante" 
+	}
+}
+
+BRA_PRESIDENTS = {
+name = NAME_THEME_PRESIDENTS
+	
+	for_countries = { BRA }
+	
+	type = ship
+	unique = {
+		"Deodoro" "Floriano Peixoto" "Prudente de Morais" "Campos Sales" "Rodrigues Alves" "Afonso Pena" "Nilo Peçanha" "Hermes da Fonsece" "Vencesláu Brás" "Delfim Moreira"
+		"Epitácio Pessoa" "Artur Bernardes" "Washington Luís" "Júlio Prestes" "General Tasso Fragoso" "Almirante Isaías de Noronha" "General Mena Barreto" "Getúlio Vargas"
+	}
+}
+
+BRA_IMPERIAL = {
+name = NAME_THEME_IMPERIAL
+	
+	for_countries = { BRA }
+	
+	type = ship
+	unique = {
+		"Império" "Dom Pedro" "Dom Pedro II" "Dom Pedro III" "Princesa Isabel" "Príncipe Imperial" "Imperial Marinheiro" "Barão de Tefé" "Barão do Rio Branco" "Duque de Caxias" 
+		"Marquês de Olinda" "Infante Dom Miguel" "Afonso de Bragança" "Dom Pedro Afonso" "Dona Leopoldina" "Regente Feijó" "José Bonifácio" "Marquês de Itanhaém" 
+	}
+}
+
+BRA_IMPERIAL_ADMIRALS = {
+name = NAME_THEME_IMPERIAL_ADMIRALS
+	
+	for_countries = { BRA }
+	
+	type = ship
+	unique = {
+		"Visconde de Cabo Frio" "Marquês de Paranaguá" "Marquês de Maceió" "Marquês de Aracati" "Visconde de Itaboraí" "Barão de Tramandaí" "Barão de Suruí" "Visconde de Albuquerque"
+		"Marquês de Muritiba" "Visconde do Rio Branco" "Barão de Cotegipe" "Visconde de Abaeté" "Visconde de Inhaúma" "Visconde de Ouro Preto" "Barão de Pereira Franco" "Visconde de Lima Duarte"
+		"Visconde de Lamare" "Visconde de Vieira da Silva" "Visconde de Guaí" "Barão do Ladário"
+	}
+}
+
+BRA_COMMUNIST = {
+name = NAME_THEME_COMMUNISM
+	
+	for_countries = { BRA }
+	
+	can_use = {
+		has_government = communism
+	}
+
+	type = ship
+	unique = {
+		"Revolução" "Fraternidade" "Internacional" "Liberdade" "Vanguarda" "Operário" "Camponês" "Vinte e Três de Novembro" "Marinheiro Cidadão" "Tenente Tomás Meireles" "Tenente Siqueira Campos" 
+		"Marechal Dias Lopes" "Coronel Djalma Dutra" "Lourenço Moreira Lima" "Tenente Cleto Campelo" "Comandante João Alberto" "Indústria" "Bandeira Vermelha"
+	}
+}
+
+BRA_NAVIGATORS = {
+name = NAME_THEME_NAVIGATORS
+	
+	for_countries = { BRA }
+	
+	type = ship
+	unique = {
+		"Álvares Cabral" "Vasco da Gama" "Bartolomeu Dias" "Infante Dom Henrique" "Infante Dom Fernando" "João Gonçalves Zarco" "Tristão Vaz Teixeira" "Diogo de Silves" "Gil Eanes" "Afonso Gonçalves Baldaia" 
+		"Antão Gonçalves" "Nuno Tristão" "Diogo Gomes" "Pêro de Sintra" "Fernão de Gomes" "João de Santarém" "Pedro Escobar" "Lopo Gonçalves" "Fernão do Pó" "Soeiro da Costa" "João Vaz Corte-Real" "Diogo Cão"
+		"Afonso de Paiva" "Pêro da Covilhã" "Afonso de Albuquerque" "Duarte Fernandes" "António da Abreu" "Francisco Serrão" "Jorge Álvares" "Francisco Zeimoto" "António da Mota" "António Peixoto"
+	}
+}

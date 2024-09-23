@@ -1,0 +1,30 @@
+opinion_modifiers = {
+
+	BRA_anti_liberal_policies_good = {
+		value = 35
+	}
+	BRA_anti_liberal_policies_bad = {
+		value = -50
+	}
+	BRA_anticommunist_policies_good = {
+		value = 35
+	}
+	BRA_anticommunist_policies_bad = {
+		value = -50
+	}
+	BRA_antifascist_policies_good = {
+		value = 35
+	}
+	BRA_antifascist_policies_bad = {
+		value = -50
+	}
+	BRA_anti_imperialist_policies_good = {
+		value = 35
+	}
+	BRA_anti_imperialist_policies_bad = {
+		value = -50
+	}	
+	BRA_american_brazilian_diplomacy = {
+		value = 50
+	}
+}

@@ -1,0 +1,3 @@
+should_have_brazilian_medals_trigger = {
+	original_tag = BRA
+}

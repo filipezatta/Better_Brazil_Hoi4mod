@@ -1,0 +1,45 @@
+BRA = {
+	male = {
+		names = { 
+			Afonso Antônio Artur Augusto Aurélio Benjamin Cândido Carlos Celso Custódio
+			Delfim Deodoro Eduardo Emílio Epitácio Ernesto Fábio Fernando Filipe Floriano Francisco
+			Francisco Federico Gaspar Gastão Getúlio Henrique Hermes Humberto Isaías Xavier
+			João Joaquim José Júlio Juscelino Luís Manuel "Marco Antônio" Mário Miguel Hugo
+			Nereu Nilo Paulo Pedro Prudente Silviano Tancredo Urbano Venceslau Vital 
+			Heitor Davi David Gabriel Bernardo Samuel "João Pedro" "João Paulo" "José Francisco" Sebastião Raimundo
+			Luiz Geraldo Benedito Jorge Nelson Severino Mario Osvaldo Benício Guilherme Arthur Theo Rafael Mateus Daniel
+			"João Gilberto" Gilberto Felipe Vinícius Rodrigo Leonardo Diego Alexandre Vítor Ricardo Marcelo Leandro Diogo Igor
+			Vicente "João Vicente" Otávio Adriano Tomás Márcio Ian Sérgio Iago Renato Jean Roberto César Giovanni Luciano Cláudio Raul
+			Pablo Fabrício William Maurício Rogério Flávio Santiago Ramon Frederico Estevão Tales Álvaro Cristiano Ronaldo Ivan Juan Otto Wagner
+			Antony Alessandro Christian Raphael Rui Allan Matias "Pedro Henrique" "Joao Vítor" "Luiz Henrique" "Júlio César" "Victor Hugo" "José Carlos"
+			"João Carlos" "Luiz Felipe" "Antônio Carlos" "Marco Aurélio"
+		  }
+	}
+	female = {
+		names = { 
+			Aldara Beatriz Berengaria Branca Blanche Constance Estevainha Stephania Fruilhe Guiomar Joana Leonor Margarida Maria Sancha Teresa Constança Fernanda
+			Ana "Ana Beatriz" "Ana Luiza" "Ana Renata" Francisca Antonia Josefa Raimunda Rosa Sebastiana Nair Benedita Luiza Luzia Júlia Rita Alice Helena Isabel Tereza Alzira Edna Dulce Ruth
+			Terezinha Aparecida Lívia Maitê Cecília Lara Aurora Mariana Elisa Eliza Laura Laís Larissa Rebeca Lorena Olívia Heloísa Sofia Camila Raquel Sara Débora Marta Abigail Noemi Eunice Hosana
+			"Maria Cecília" "Maria Eduarda" "Ana Clara" "Maria Alice" "Maria Luiza" "Maria Helena" "Ana Carolina" "Ana Laura" "Maria Fernanda" "Maria Flor" "Maria Elisa" "Maria Isabel"
+			Valentina Isabela Juliana Isadora Bruna Vitória Manuela Jéssica Gabriela Aline Melissa Bianca Carolina Giovanna Rafaela Vanessa Catarina Bárbara Marina Patrícia Adriana Daniela
+			Priscila Natália Marcela Luciana Cristina Andressa Sandra Márcia Alessandra Cláudia Érica Janaina Carla Gisele Tatiana Taís Louise Mônica Fátima Andréia Viviane Flávia Simone
+			Gabrielle Pamela Eliane "Maria Rita" Elizabeth Cíntia 
+		}
+	}
+	surnames = { 
+		Barreto Bernardes Bittencourt Brandão Bras "Cabral da Silva" Caldwell Constant Costa "da Camara"
+		"da Costa" "da Fonseca" "de Aguiar" "de Barros" "de Beaurepaire-Rohan" "de Bragança" "de Carvalho" "de Itapevi" "de Lima e Silva" "de Melo"
+		"de Noronha" "de Oliveira" "de Orleans" "de Souza Neto" "de Suruf" Dutra Fragoso Frontin Galvão Jordão
+		Labatut Lopes Maciel Mallet Marques "Marques de Sousa" Maurity Moreira Osório Peixoto
+		Pena Pessoa Pinto Rondon "Saldanha da Gama" Santos Soares Tavares Vargas Wandenkolk 
+		"da Silva" "dos Santos" Werneck Lacerda "de Lacerda" Sá Teles "de Sá Teles" Braga Pereira Fernandes Carvalho Ribeiro "de Jesus" Martins
+		Barbosa Vieira Batista Dias "da Conceição" "do Nascimento" Nunes Araújo Cardoso "de Almeida" Mendes Teixeira Ramos Barsotti Zimmermann
+		Rodrigues Gomes Gomez Ferreira Rosa Alves Rocha Andrade Conceição Freitas Machado Santana Magalhães Amaral Domingues Dourado Feitosa 
+		Castro Reis Duarte Mendanha Siqueira Garcia Novaes Godoy Chaves Leal Mendonça Alvares Gouveia Figueiredo Torres Azevedo Queiroz Correia
+		Pedroso Barros Alvarenga Fagundes Bezerra Brito Viana Vasconcelos Medeiros Freire Pires Campos Borges Leite
+	}
+	callsigns = { "Guará" "Jaguar" "Carcará" "Harpia" "Cavaleiro Negro" "Cobra" "Lobo" "Flecha" "Sombra" "Louco" "Ressaca" "Cão" "Raio" "Trovão" "Cachorro Louco" "Batata" "Peçonha" "Maluco" "Sortudo" 
+		"Pombo" "Corvo" "Jagunço" "Perereca" "Pato" "Pirata" "Catiço" "Bigode" "Chumbo" "Fumaça" "Trovão" "Mané" "Zoião" "Goiaba" "Banana" "Marmita" "Falcão" "Gavião" "Fuinha" "Cavalo" "Pardal" "Periquito"
+		"Sabiá" "Saci" "Beiçola" "Pezão" "Siri" "Arapuca" Bacharel Mula Jambock
+	}
+}

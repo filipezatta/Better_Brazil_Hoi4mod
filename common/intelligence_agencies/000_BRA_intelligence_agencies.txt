@@ -1,0 +1,45 @@
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_sni
+	names = { sni }
+	
+	default = { 
+		tag = BRA 
+		has_government = fascism
+	}
+		
+	available = { 
+		original_tag = BRA 
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_cie
+	names = { sfic cie }
+	
+	default = { 
+		tag = BRA 
+		has_government = neutrality
+	}
+		
+	available = { 
+		original_tag = BRA 
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_abin
+	names = { abin }
+	
+	default = { 
+		tag = BRA 
+		has_government = democratic
+	}
+		
+	available = { 
+		original_tag = BRA 
+	}
+}
