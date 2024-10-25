@@ -163,7 +163,38 @@ characters={
 		#	}
 		#}
 	}
-
+	BRA_maria_francisca={
+		name= BRA_maria_francisca
+		portraits={
+			civilian={
+				large= GFX_portrait_BRA_maria_francisca
+				small="GFX_portrait_BRA_maria_francisca_small" 
+			}
+		}
+		#country_leader = {
+		#	ideology = moderatism
+		#	expire = "1965.1.1"
+		#	id=-1
+		#	traits = {
+		#	}
+		#}
+	}
+		BRA_luiz_gastao={
+		name=BRA_luiz_gastao
+		portraits={
+			civilian={
+				large= GFX_portrait_BRA_luiz_gastao
+				small="GFX_portrait_BRA_luiz_gastao_small" 
+			}
+		}
+		#country_leader = {
+		#	ideology = moderatism
+		#	expire = "1965.1.1"
+		#	id=-1
+		#	traits = {
+		#	}
+		#}
+	}
 
 
 	###########################################################################

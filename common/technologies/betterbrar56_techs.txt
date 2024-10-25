@@ -5,7 +5,27 @@ technologies = {
 
 
 ###------> BRA <><> <><> <><> <><> <><>
-	
+	horse_artillery_tech = {
+		research_cost = 1
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+		artillery = {
+			#battalion_mult = {
+			#	category = category_cavalry
+			#	breakthrough = 0.10
+			#}
+			battalion_mult = {
+				category = category_cavalry
+				breakthrough = 0.15
+				soft_attack = 0.2
+				hard_attack = 0.1
+			}
+		}
+	}
+
 	selva_tech = {
 
 		research_cost = 1
@@ -15,10 +35,6 @@ technologies = {
 			always = no
 		}
 
-
-		#If you change these
-		#Change the custom tooltip too: RAJ_jungle_training_effect
-		
 		infantry = {
 			jungle = {
 				attack = 0.142

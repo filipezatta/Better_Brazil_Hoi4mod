@@ -91,7 +91,7 @@ ideas = {
 			picture = generic_research_bonus
 			
 			modifier = {
-			research_speed_factor = 0.02
+			research_speed_factor = 0.05
 			}
 		}
 		
@@ -222,6 +222,30 @@ ideas = {
 			
 			modifier = {
 				communism_drift = 0.1
+			}			
+		}
+		bra_influencia_monarquista_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = BRA_instabilidade_pic
+
+			cancel = {
+				OR = {
+					is_subject = yes
+					is_puppet = yes
+				}
+			}
+			
+			modifier = {
+				neutrality_drift = 0.1
 			}			
 		}
 		

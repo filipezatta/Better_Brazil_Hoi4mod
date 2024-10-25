@@ -1,0 +1,14 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_portrait_BRA_maria_francisca"                
+        texturefile = gfx/leaders/BRA/Portrait_BRA_Maria_Francisca.dds 
+    }                                                  
+    spriteType = {                                      
+        name = "GFX_portrait_BRA_luiz_gastao"
+        texturefile = gfx/leaders/BRA/Portrait_BRA_Luiz_Gastao.dds
+    }
+    spriteType = {
+		name = "GFX_portrait_BRA_getulio_vargas"
+		texturefile = "gfx/leaders/BRA/portrait_BRA_getulio_vargas.dds"
+	}
+}

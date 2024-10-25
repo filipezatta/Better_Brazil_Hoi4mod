@@ -275,8 +275,7 @@ BRA_estado_novo_desc:0 "Ever since 1889, Brazil has shown itself fragile to subv
  bra_monarquia_focus:0 "Imperialism"
  bra_monarquia_focus_desc:0 "Since 1889 the royal question has been a target of debate within our intellectual circles. We can call our Emperor to lead Brazil once more."
  bra_monarquia_tooltip:0 "Summons our Emperor, D Pedro III, to lead Brazil."
- bra_more_federal_universities:0 "Expand the Federal Campuses"
- BRA_more_federal_universities:0 "Expand the Universities"
+ bra_more_federal_universities:0 "Expand the Federal Campuses to Rural Areas"
  bra_more_federal_universities_desc:0 "More universities mean more learners and more progress. Transforming small interior colleges into major educational centers should be a priority of the government."
  bra_mot:0 "FNM"
  BRA_mot:0 "Motorization"
@@ -794,6 +793,7 @@ BRA_estado_novo_desc:0 "Ever since 1889, Brazil has shown itself fragile to subv
  bra_comercio_modifier:0 "Bi-Lateral Commerce"
  bra_comercio_inimigo_modifier:0 "Nationalization of Multi-Nationals"
  bra_comercio_mercosul_modifier:0 "DefenSul"
+
 
  devout_industrialist_trait:0 "Devout Industrialist"
  vfb_trait_jk:0 "Hyper-Developmentalist"

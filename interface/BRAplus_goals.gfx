@@ -1,0 +1,11 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_focus_BRA_maria_francisca"                    
+        texturefile = gfx/interface/goals/bra/focus_BRA_maria_francisca.dds 
+    }                                                  
+    spriteType = {                                      
+        name = "GFX_focus_BRA_luiz_gastao"
+        texturefile = gfx/interface/goals/bra/focus_BRA_luiz_gastao.dds
+    }
+
+}
